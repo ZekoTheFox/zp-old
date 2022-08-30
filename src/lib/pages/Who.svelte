@@ -31,7 +31,7 @@
     </header>
     <div slot="content">
         <div class="block">
-            I'm a freelance developer with interests in Web Development, as well in some Motion Design.
+            I'm a freelance developer with interests in Web Development, as well as in some Motion Design.
             <br>
             Usually I'm a fairly laid back and chill person, so if you see me in a public voice or text channel, feel
             free to say hello!
