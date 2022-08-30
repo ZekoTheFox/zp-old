@@ -238,7 +238,7 @@
     }
 
     .text {
-        width: 80rem;
+        width: 100%;
         height: 10rem;
         margin-top: 4rem;
         padding-top: 1px;
