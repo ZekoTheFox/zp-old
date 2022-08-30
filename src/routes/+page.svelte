@@ -114,7 +114,7 @@
         <div>
             <ul class="table">
                 {#each tableOfContents as link}
-                    {#if $page.url.hash === "#" + link.path}
+                    {#if $page.url.hash === "#" + link.path || ($page.url.hash === "" && tableOfContents.indexOf(link) === 0)}
                         <li class="active">
                             <a href="#{link.path}" on:click={() => switchToPage(tableOfContents.indexOf(link))}>
                                 {tableOfContents.indexOf(link) + 1}. {link.name}
@@ -163,6 +163,10 @@
         height: 37.5rem;
         padding: 0;
         overflow: hidden;
+    }
+
+    .container {
+        width: 100%;
     }
 
     .table {
